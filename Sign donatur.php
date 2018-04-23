@@ -142,7 +142,7 @@
 						$terdaftar = $Koneksi -> query($daftarQuery);				
 						
 						if($terdaftar){
-							echo "<script>window.location.assign('/Sekolahkan Guru/Page donatur');</script>";
+							echo "<script>window.location.assign('/Page Donatur');</script>";
 						}
 					}else{
 						echo "<script>document.getElementById('email').style.borderColor = '#ff6624'; alert('Email sudah terdaftar')</script>";
@@ -167,7 +167,7 @@
 					if($hasilQuery -> num_rows > 0){
 						while($row = $hasilQuery -> fetch_assoc()){
 							if($row['Password'] == $_POST['PasswordIn']){
-								echo "<script>window.location.assign('/Sekolahkan Guru/Page donatur');</script>";
+								echo "<script>window.location.assign('/Page Donatur');</script>";
 							}
 						}
 					}else{
