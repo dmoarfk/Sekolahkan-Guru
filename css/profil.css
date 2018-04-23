@@ -1,0 +1,227 @@
+/*main cover*/
+#cover{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+}
+
+.container-fluid {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#layer{
+	position: absolute;
+	background-color: rgba(0,0,0,0.52);
+	width: 100%;
+	height: 500px;
+}
+
+/*navbar*/
+.navbar{
+	position: relative;
+	background-color: transparent;
+	border: 0px;
+	text-align:center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.nav:active, .nav:hover{
+	background-color: transparent;
+}
+
+p{
+	margin: 0;
+}
+
+a{
+	margin-top: -0.6vw;
+	font-size:1.5vw;
+	margin-right: 2vw;
+	color: #c0c0c0
+}
+
+a:hover{
+	color: #fff;
+} 
+
+/* Content */
+.picture-container{
+	position:absolute;
+	background-color:#e6e6e6;
+	width:25vw;
+	height:30vw;
+	
+	top:25vw;
+	left:10vw;
+	border-radius:0.5vw
+}
+.status-container{
+	position:absolute;
+	width:25vw;
+	height:60vw;
+	
+	top:25vw;
+	left:10vw;
+	border-radius:0.5vw;
+	
+	padding-top:32vw;
+	padding-left:3.5vw;
+	padding-right:3.5vw;
+	padding-bottom:3.5vw;
+	font-size:2vw
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1vw;
+    color: black;
+    background-color: #e6e6e6;
+    display: inline-block;
+	border:1px solid black;
+	border-radius:0.5vw;
+	padding-top:0.2vw;
+	padding-bottom:0.2vw;
+	padding-left:1vw;
+	padding-right:1vw;
+	margin-left:-1vw;
+	cursor:pointer;
+}
+
+.inputfile1 {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile1 + label {
+    font-size: 1vw;
+    color: black;
+    background-color: #e6e6e6;
+    display: inline-block;
+	border:1px solid black;
+	border-radius:0.5vw;
+	padding-top:0.2vw;
+	padding-bottom:0.2vw;
+	padding-left:1vw;
+	padding-right:1vw;
+	margin-top:18vw;
+	margin-left:1vw;
+	cursor:pointer;
+}
+
+.form-control:active, .form-control:focus{
+	border: 1px solid #ff743b;
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.btn-basic{
+	background-color:#e6e6e6;
+	color:black;
+	border: 1px solid black;
+}
+
+#statusbeasiswa{
+	/*Belum*/
+	/*color: #ff3823;*/
+	
+	/*Selesai*/
+	color: #92d36e;
+	font-weight:bold;
+}
+
+#statusartikel{
+	/*Belum*/
+	color: #ff3823;
+	
+	/*Selesai*/
+	/*color: #92d36e;*/
+	font-weight:bold;
+}
+
+.name-container{
+	position:absolute;
+	color:white;
+	font-size:5vw;
+	top:28vw;
+	left:38%;
+}
+
+.btn-warning, .btn-warning:active, .btn-warning:hover, .btn-warning:focus{
+	border:none;
+	background-color:#ff743b;
+}
+
+.a1, .a1:hover{
+	font-size:1vw;
+	color: #ff743b;
+}
+
+#rewardphoto{
+	height:6vw;
+	width:10vw;
+	background-color:#e6e6e6;
+	float:left;
+}
+
+#fotoijazah{
+	height:20vw;
+	width:13vw;
+	background-color:#e6e6e6;
+	float:left;
+}
+
+.box-shadow--8dp {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+}
+
+
+/*footer*/
+.bottomcontainer{
+	text-align:center;
+	width:100%;
+}
+
+.btn-basic{
+	width: 30vw;
+	border: 1px solid black;
+}
+
+.footer{
+	background-color: #f8f7f7;
+	width:100%;
+	text-align:center;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 1vw;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #ff743b; 
+    border-radius: 10px;
+}

@@ -1,0 +1,82 @@
+.box-shadow--8dp {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+}
+
+#layer{
+	position: absolute;
+	background-color: rgba(0,0,0,0.52);
+	width: 100%;
+	height: 10.2vw;
+}
+
+/*navbar*/
+.container-fluid {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.navbar{
+	position: relative;
+	background-color: transparent;
+	border: 0px;
+	text-align:center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.nav:active, .nav:hover{
+	background-color: transparent;
+}
+
+p{
+	margin: 0;
+}
+
+a{
+	margin-top: -0.6vw;
+	font-size:1.5vw;
+	margin-right: 2vw;
+	color: #c0c0c0
+}
+
+a:hover{
+	color: #fff;
+} 
+
+/*footer*/
+.bottomcontainer{
+	text-align:center;
+	width:100%;
+}
+
+.btn-basic{
+	width: 30vw;
+	border: 1px solid black;
+}
+
+.footer{
+	background-color: #f8f7f7;
+	width:100%;
+	text-align:center;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 1vw;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #ff743b; 
+    border-radius: 10px;
+}
+
